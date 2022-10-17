@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Testing backgrounds</title>
+    <link rel="stylesheet" href="./Entry4_BackgroundTest.css">
+
+    <div class="time">
+        <script type="text/javascript">
+            var myDate = new Date();
+            var myDay = myDate.getDay();
+
+            // Array of days.
+            var weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            document.write("Today is " + weekday[myDay]);
+            document.write("<br/>")
+
+            // get hour value.
+            var hours = myDate.getHours();
+            var ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12;
+            var minutes = myDate.getMinutes();
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            var myTime = hours + " " + ampm + " : " + minutes +
+                " : " + myDate.getMilliseconds();
+            document.write("\tCurrently " + myTime);
+        </script>
+    </div>
+</head>
+
+<body>
+   
+    <br><br><br><br><br><br>
+
+    <h1>Keep on collecting. And watch them accumulate over time.</h1>
+    
+    <div class="background">
+        <img width=1400px height=900px>
+        <a href="background: url(https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif);"></a>
+    </div>
+
+
+    <br><br><br><br>
+    <div class="time2">
+        <script type="text/javascript">
+            var myDate = new Date();
+            var myDay = myDate.getDay();
+
+            // Array of days.
+            var weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            document.write("Today is " + weekday[myDay]);
+            document.write("<br/>")
+
+            // get hour value.
+            var hours = myDate.getHours();
+            var ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12;
+            var minutes = myDate.getMinutes();
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            var myTime = hours + " " + ampm + " : " + minutes +
+                " : " + myDate.getMilliseconds();
+            document.write("\tCurrently " + myTime);
+        </script>
+    </div>
+</body>
+
+</html>

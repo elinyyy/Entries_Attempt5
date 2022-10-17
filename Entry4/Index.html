@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accumulating Lights</title>
+    <link rel="stylesheet" href="./Entry4.css">
+
+    <div class="time">
+        <script type="text/javascript">
+            var myDate = new Date();
+            var myDay = myDate.getDay();
+
+            // Array of days.
+            var weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            document.write("Today is " + weekday[myDay]);
+            document.write("<br/>")
+
+            // get hour value.
+            var hours = myDate.getHours();
+            var ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12;
+            var minutes = myDate.getMinutes();
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            var myTime = hours + " " + ampm + " : " + minutes +
+                " : " + myDate.getMilliseconds();
+            document.write("\tCurrently " + myTime);
+        </script>
+    </div>
+</head>
+
+<body>
+   
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    
+    <div class="all_images">
+        <div class="h1">
+            <h1>Keep on collecting. And watch them accumulate over time.</h1>
+        </div>
+
+
+        <div class="Setouchi">
+            <img width=650px height=400px src="https://lh3.googleusercontent.com/rz6uo8hEfUyMgM_0Y0AuDmoGTnWT0CRApFl6Rvzpskqp9a6hquPrWMgPfAot5QEi6tTpygspw-rEYhu9GHvdtSI6gIU7GZBd5zxxnjKfj_54Wibu4IiyeJkykRoHnJJfaAxkdN-UgCHarkXwzwlL2N_ksTtdl5Rswz31gZedXhVa6n7miJyDM3VFDK6kH8R2MQ_P3py5sCWRz_LZVKaXcNsHHvGO04W7uI-Tx28zBCqrdh8G3MBTOghslMJYIB5tInt2diecLon6-Ht22TwP99JFQrwXceqjrOC91CXDdFPm4upOsxBIykNXPBODaWtcJ5UxdtdbprAFmNVlP2TuIANJ62F6ZFPIXmMBqLkLNDHkeGh6AlmXnQJyIunolkksNZ1N7TKRqLDin5fpol5bhpquJ7dpkTjFKL1PqlcX1-WLKb-hNKP5dlYwoHrHXiZGa-zFtGULCvYywVYzNIujRU71Y7itXf975-9TfW0y7SWGOR4QIG883Z-7yF-Cp3mafpBEwaaHRL40pBx2exAuKtYTL0-d-kpDO63li2T8mbxgqALRsrHspVxnOnP8PcfqsXac2fo6QpWPFiimkADk5XcID8C88Nb4jrn-lCjphphWxW081AhltKrTseEl5eoK8Op0ueb7-YKXcj67KDwQxawOLEBmjDjuSCURs8sHmI4NRcnTJue5BpiFOJEUhKcho82HN6s0sjcugym2MiBP_sxqLMjFPXsOWS3QXqhcIL-Nx48JanFz_Z6-dDnDuKQe7cRV06VmZU89wtsJ4Dt9sluXvCuKsmRgHimZKwSrpi2mcp9e28bH2kxsox-5B2r2BZwxFccezxuhZ3VL_jF7HGTGD5GW3_34Gj57W9_R5PX2yJPsDi44DXy8OSMsbjsmOP3BexGsr5fU5BzMdqGGENxorqRTcV2lL6Er8JHPnpD2_BQaqAcuPIn5cIOPlBVSYiqSO4wDTBQ=w1280-h720-no?authuser=0">
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <div class="Aquarium">
+            <img width=500px height=350px src="https://lh3.googleusercontent.com/H7rzjhy_ZMTHwvT8wXjT4l8V4IR1ADOqbhB2_wpaX-okc_ZHH9FOd5vL5-sLzBGDd_fvQoXC34xLEpjXDjP7OAOIr9K-urkOtXrRKj16HQ0D58S5knYjqlNh64mzNqK0-nK7xHmGaskP-zCPg0y0nY0Z0UN6Z9uP8J5ONbPwaJxTA6XT3xOAV7NBvf2vDd8MLirxNov0Fn-dQlpBUMcZe1BvZzYfRoPLVph9lpOqA5AHK6kdNuDt3iYssMzxzBJjOeO55AaDbJW0FEVth8AOsej16250ECQuxZMldq-dulAwuWDeSzyJeW8HcditUKxn6ikWpEZ-qAVvZloMN6bOKeLvf9Zz7QRkhHZL70JofxKtn6b0C0IMooca4WmuBuyyUOQRZZ6wMkT6lS0-8DpFmc2EBND8XktfpcfX0SvB4-C1p4Sn2MlzIWaR_vlIU_q8Iux6oexz-kW6SG6eqhO2CImkGMCkvt9dlz8HwMigW2oIKdD-BlSRMcLfvDETEpTACIQXD5t0ft_xRwKJ4az4blWvKSWpPB-cRsj_7VM7JqT-Lfyl2VSKRGLpKMyneHH5zUj2lqK4IYIdEhComkDzsVA8j9t1C-jcNiouEvdYXH8106MfcQd4WF1iMkFF8r-59QdQ6Q_ahknToCCozKjTnLZjfjoSjQGy8J1hr5BHPdAHbvM-o9qRru00Qyewe7GicaOy-cgg0Pw5TLDaWGW2R68RrGsrgnGBiZi2bFghEdrq4mSalLdQS6XctHL8eMHSNBCgS4HsIsicBM48o7iuOEifbGwDYJ-fg9lNVHAEAWNbdLO5pdgxxI0_VYk0HSsPHz0SVmzZXCGT4GdFKJTXd8za7on9pV948yFY18rP3nz8BNzmgcxFmSvz_pLNrfu3gFsAfvHyCOnKVVn_3SwHTetJiPdtTrg56bJoESvk5gbCO2iHaiBgB1j0mYB8fl514GCZbadc7-8=w1280-h720-no?authuser=0">
+        </div>
+
+        <div class="Candles">
+            <img width=420px height=280px src="https://lh3.googleusercontent.com/vZG5Ckm3XNrg0IYCzfx4UNyWys43zLPvx-EZEOR5Btr-KaWWcEOPmoZ2njnrUhQVPJyKPZQrFBclVuz0eI2xTaANbVllG3T73AXQ-xqKGVPJ6sW3vev1JYlr_YE7BYKOhxpxWhX8RXB8HbR2Sglvmn1MPkxoEb3f_ocX4uS24JnLhrIPOPi1L0UVZnz05wpEEld8jv7_tpOtrA2THkmGMFiHEj6I7HWuyCMFSidNEaMlrsV3HrqOHMp-qvH3irghrWQ9XLycsVMG-f-Xb2p0UU0KSCVLOZUItJIbH0EMBTLLXl8QixZPGKBX6d_NdBLYU37JKoG-RYfPokAihUxbfbZU2zKdXBG_FQY-mkyOLc3NBBP5l0d73VxEhC8fymwrwKuQMo8jH-XrsR_1CxSwARqz3DXa0EWT8TxC5qdrqbeg3URi8d5UMj2uLCfWrT0g9qXeS_hQtZbj4Tvyg0A-XYdCoR_x59yuPUgSpYxq5p0DqvFDuPnW45I_RCMHjOv1DAeHItYlmlgten5kWWRtmUnWw6orc4NkXbN5KVYcfhS7V9jJ4ls6ekvhBaKfiH6dk9lWoZjM9ZWROTM_az4X-qkkNE3mVpN_c8U-2NUFAYvfXwqvBO6TBarveE34qKIWtJOoLSijuAANUDrE71QfX3B_-E_-SqKYFmS4oiAvfRzEwCIBboxuZnqNbB4y_P5qB_sL8SCBQGmJk8OjFNOM9ImfcD9zWfWk75iEaZnK9ajLEk95v5MtFMeYxmvSXtsXzMq9-M65RdHb9PY6QLSFpmj8GZ4RvNGrVj4rak74nsBGTPw7jeZs5ktTMTP0_v-EpgULJx90td9qaftGCcYvT80VCAu-e5Wlc3crRLEHAFsvJkzAlrbFCVmdt1Aql4qupRAogqGVaQEUrl2dmAUmIXDGSSqKwyKUxGEMrHxuj8TtEKTOk-Oeaeb0YJLZ6YpE8brbP1YJCcw=w1920-h1080-no?authuser=0">
+        </div>
+
+        <br><br><br><br><br><br>
+
+        <div class="ParkingSign">
+            <img width=360px height=500px src="https://lh3.googleusercontent.com/-9VpLKKNGs9TVPRaDDsA9wpMseaPyw06IExFh36_GR8MgF3Nc-XNyTDL55zgpnZd8eGez_EajZW7FLEXvW8Sio6BY7T-2VBCOj_cq9qp-FwGFjeZEFYlZa4km2y798mbtSEg7wMN5yUmcEzYJnYhAUpwTZyj9mcXLcXyNQTAct8kgR5u5x_-InI6oe83aP84Sh95-DtzRgH4YsuobVfi3lfEKhtB88NQuxJ49jom7WSQg8_JMC8q0Nrnfpez85FJT2WaJyI59ksdo6FHmWHnFHyZ6UGRXH0pn7R6D3K0B0JRc4t56cB1k5hvherbfEqJCw9dIiQOHBow-G4udiwb_5D3-n3Lh6Ki2ns9JJ9e55ze8oVyeiZXNmdxaT5iSVV71-uYPjVwD3MgMh0BUFrMXKwofnxL6EErG_fBbSe3utlAiR_YK4mlQSC6lPpzFD9wHAOr2PhSUjPrNDRoEl1QIl1XH1JJfWSfMusPCd6NLZPMLBGLWebmvXcttkkPOu7p6hzDBkesEHdcQ2niHon55Y6iAVniJpGmTQIU5rN5v2kwNI8TzAREr00SjqXBQCpYo7-18HGjXMoGGf4AZ61BwrXEBWgFn0YhNOhJbC9v2nHDXnDZvpyPfKOK7Vg31tiqFsyrEiQ5OijLxwL_9aHDS4G-plff-NZEQlSiiTpKY6HflMN88_YTiVOyacmUZqb19bOEZPHhgoOq78gLEFEm8MITgWtYlgPnu927ns5V2FJ4DHpxe7V8y3hJR3RcPQXlZGf-g5KRJz7iyUroTZuFXW077FEDgvfaYG_RfL-naHyvSVHmuotVeF9EdpYGrlYCwWQg2ZA8ox1BRmK-2--o9SMdQCIqITT0BYEp7BFslZQE_k4qciXMeD9c6kWL5fIT5r2OwzBPKKi92Izd2vQYgZp5ImtuRSapdn_1Lo3Crj5d8wl_Q5LRn7_sJEJ4MXIJcdFzpkmy0xc=w890-h1190-no?authuser=0">
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+        <div class="blow_out_the_candles">
+            <img width=560px height=800px src="https://lh3.googleusercontent.com/vMbcZTDKXndaSyS48rXAUgDodk_Q_tbnDHqOf_qdDh0JKE8GHHEelUPAVP4rO4GDUC4VfLXx30D4lVl_xvYGghRYlMD3zNoXkyhFbOl13oJ7Ula3JjUy1kWtGqC9gdAd9pb8C_kSZKYn45Ezff78J4s5U7qW9WY3g9M7c5_MfR_LALQ-81h8r5HXuNhOQ4eWQQ6xH88hUW71-H4OzMP68VSI1vMlssc6oQ-BQ5f71eSdBCk2KIdNkCOGkIdbu5GfFo1rs9dOO7aB4tlpDelzwHyxkrd6DlKC9Cr1rQbL7BxNL2VffKLzCidSVl5GzGKWXYQsLT0Bd2eNE_Su7nHCExm50PRlq9lYPTxb1rNASsYqz7MvoGXBpn0frlgkoGnYmmNdOiiH7V6MYcxXYY0WcQf3OhgEUc_te6dgHmGFjBrZCLeg1m-_eBXAJSXDqeIlL4ZpNVLV34AkzAFCdYfjtZWTMEeA5xqf1TAUxEBteoEKY7N4YVHk5yv2IoHbM3RFRUV4DC41aq2FVlNTCEFZmBDg30tr1Zc9dQe6R_fDzCuri9EIGyrYtDhUXPCNSFtrRJcM0MMOpz4Hvl1TmuUU-bqm3erQ1kmoZOBaj2GeaegAsolta15fDdKsaKyds98jzB7LHcMms4AWFuNbKP7LAxL0FrHI4n34K_Wt8-QVgKcKp-jLiCqWaL1dg-ZRa-bjCJH7eNDBs13V5XJhdq4KpNu_JS-Rn31FB0hhscJrfNSIQFMfboGM8h9zgll7Zml5N5m__OPkaEXbdCgN0WpZXlSSKEI-qj7Aua_nTANtP7-dEqk7T4n2g6sMLObFSnAqwxgk9Ym9THE82kUZKZMKxFfx39kLbVj5p5zC_9qvaoi4Gm5VswQPS2cGSpA3Y5yxpsbURWshVJ6CLIQrke5Tp71sgjP_7U0nlerYlK6ECxxNSzxi7mIy6RYKOefHXj5_zyvxM7Z71Sc=w802-h1424-no?authuser=0">
+        </div>
+        <br><br><br>
+        <div class="StreetLight">
+            <img width=280px height=390px src="https://lh3.googleusercontent.com/5LFC2NdfZIP4Nx5h0ScjNvgE3dwXweeDeXcdHwpes2dBJShxzKvsIhQ8hZKxKnQsd_p2-MG-gDGDhL17kAn04_4nxBvnOlwVQRmVO4vurYJ2TBz7MJfM1dn_ZmDnZXHpkyVLpexpyTiApxiKV1mvHFDchNukiCu_Bq646AGgRNusqjKHhyYVTzhbnkD9A5fDRDE0H8fUiTR1CNhNFoaOWKHW4SUJhq69Ea8FtjdZ0CZoAgZA4e23hz505MHt-SIV6lnX18ORyjwVlal0Ms6iPjQvGy-vORMfmVkD_NCg19a_5AVuy-B4BVagB-wxStem8B1-9qWSvDukZXRM6xgtfZpfOqripz6jzwPDFYwQvHyi2q1pn-hNO6Sy4Dm19HKFAjpEDAzd9PgQz4728PP0nP_pnRbtQS70rY6DA8kHinSIroCHzGhgaFEogdSKpMPSJVOTFJlHGKyM2sIM_5qlxO43FCVdRq5n-0A-OvN-pWb7xSYnyvpqAYFjL4bLcPMLVnwEWWo8fpfRhAFnXAzn6kMySU0ri3O7IHMCmiH77rxJUDFmzCDoej9ezIp7ks0V87gshLMXPpC9p7Qr8CCbU17fXvratpHaXpt66_-Cf50WMGJCoqwq2r_Ws7v2HWnWby5GewAizUU_SdNBcXb7oFUa-8tFl4_rrZEGV8MYgZniyuxrWd72SjqX7bugm9If_tnPiI3DwKmNxot847YLOgdwZX4KbLX5jyuoToGjuFufEBez1kAPFQc_L0OkqjchpNeYxayXhmLXWwra_O48RMonWvl9sQCV7JKseXnGWQv-0DUc-CKgfs5MgjcFqvJuoruNHcemsqoA3i_yYwUMM2O7xyf7l6ZJ36o4pm2Y3g-tlrENyK5kE1avrRvrjLK3MwpQz8UgaK23BWlbROkTunYgCQ0VHl3NCCNnv-7wf_aCLoQyLUmrI-Zvjj4zRzTiWdODnqCvf44=w1068-h1424-no?authuser=0">
+        </div>
+
+        <div class="BrooklynBridge">
+            <img width=500px height=300px src="https://lh3.googleusercontent.com/Ir7XVaKyZ-YoI6pl7Wz6usQzWNkrxRc_b78FkNPXA4wAheC6tvX52mHAqUsboM8QijYys-iK5UEFfGh2s-M0f3AUyAz0KA7hEBcgPra7QowQk4_twm9zeODnt6fEJKdszDO9ZiiIf_IkNRVtQIPxsxljfskWlQCF8DtVPXD3pKinaMYH39dq3qYshlF8thpeDOKFoMuvtERpXutHd1aXHvhSob2K7llpKumNdeYamqcMJYICZ0aK7aQH-JmLtDNEdbaXG7dEq05rG1VbZ8qh6ychyCfI6Ym0_ZPUaV2jb7DUCYtAM2aEm01P5rqi9F4cuMM2JhmSDtWDwFrORP_YglZEk-U5letu5V_qk_xWgctsv4ShK1-lyy4FI8fwhCt0PFTL_62Sw4ZrRDskX1bnKo44rFqj3qCc6FcX1FOspxhd-_jD0d47dYmVkOJYZNkVNlHltGIOkCe8aIUjm2RGUpj2HB6TvUm7DtIQPygSFd1Td5MgSy4MCH58lFU4EUkA0mS5KzwCUaHdg9tmRUy5u9Aww339NdBCpu_WK0WgEdfbooTpmORLMCPcWTc98iaWIcuLPqYoOCGn2ocOEgOwzXRap3m0skd0oxyUQPj0jW_v9UmQZ-lwRyDly1NfypB7jjsE6AKipnnDphe1SMQ-Ml3f6ulf3B0RbkvBDaqIqlGvyvrZGFyjc7d02Rlgam2cb0RPgdrzOT5yqwyILfGIY9iS7EHztTUsOrNhEby6KNETrGh0hBTOcl1_K4QoT1A643Sib-XRObQyLxHq3B81tyIUgfsTovIRyWqezT4nNnJ_cQIuYrZz33LANybCBeUiFfjvZynfmDWTpfJUofKOm-xig11QHQTnxHVTixiCZAIJwQjvOFs05PxBgrTkwOQ-b3qVV6TNWFzhewIRJO-GbTJ1W-dwzAjdXBrZQ7hkEGd_OdcLjoJ1TLe_S7cdWVeKbikeAUpgRl4=w146-h195-no?authuser=0">
+        </div>
+
+        <br><br><br><br><br><br>
+
+        <div class="MetVase">
+            <img width=500px height=800px src="https://lh3.googleusercontent.com/DVE1EzCbHTJqOPpq8-vtlmbKW4sn6JrAhZF9gIxt6lvspaeq-XEJXXdX9dHouau4gZ5194PTQjWFSt_kttKqe8c02CDa5D9ZdNkIoJF-JTdm8JsyVU0bsKxWiG5Hu5xkKokFEwdhqTrgDGLbITixSFxGRkNj0yZpR0ZdUo2yNMDJSHcz2LRjUj9iKKFWOaTOMXgyd6zRKOY3zoc2_OSnirDPnBetcU_oeGZ7QvAWSBpIWMihbxLZhSd1Oj0twsJaYQf1sH51ybxrZp3BToYEK1URy-x1yIPCwQ9Vp7xlR2HgATS40Kl2PxDHuPrU8DquVu8RJo7kpxfAsiKTugp6_wNYM3uBuJ0tEkAiz0m_DvRdbTduAWpcSdFVqw9cweuTS3Mi-Psybutpg_gUi-he15bk1A4U4Tf6_CNCmN5xetUMkO6nlRvt4izU1EpLFtt3sl0G6t7ZDBO4eXJw5R_Vmy7UFRLbzONS_EMqyyz2mAKS_aVyfUkn1MLGiBKGGp9pxWj-vyH6hHLkMH2uxgq4eOcX2m75DRi32Cq-NQqjHdsYOdNugPr9s3ZRZLidvQ2mcxZIy75H1Ryxy1G8pSvEGNC3g3mmWsEP1UjRAEJOUx6w03ohSZRlJLZPjL3pakhlIFGQQJkcAx2awnpbFxOjEoO7LB72Ti5Pq02RZPUT-qqL6dEVMO2AbTQDATzCjl0C48Rz81wtQdz3k7K5alvmplDboBdgDbRnUfWJSCE9CnU6a_e6XitdvWi3WJv9raewE570HIOikzlhIiYbRvtWv1IbfsxFUdFnrdIwEMa450_o5LH8erGZFQCzqURj1jEgO273OYWqKHLAlGFkx_xaPcw50VY0egScP7MP44WtwTzCxYsvJUe61OVO_SvY4IzxH7h7zp_lO7WWTq-CSnQGaboN0-YhibCtl4i_dk_UEA537jxiyvgddIz-pNNA-06E2aS9mTCQB3Y=w1070-h1424-no?authuser=0">
+        </div>
+
+        <div class="EmpireState">
+            <img width=400px height=570px src="https://lh3.googleusercontent.com/5vHdQkfldFMSvNo77jA2J7gtdOsJf2e3j8nEM_KDRW9gd47YQWa7VJ3CMGSdeF5ICRz8u5Ku9ZSqz6o5ge4sZNeh71cqePzWcvRARxrtQTpxdYDYAPWcY7erkbi7DjzDXh5uNJBNHWrXhrgkv9XHtvjaC21_DlXIfciPSLbWusIr0nit0UlaNxjNcHb_IlVyZ2VZjx_ZuqPuE1UL4XqpB5bE5qOq3xn8DyJCw-ptYQvRte-LXvfbyu39qeYOC9tJEijwTBHk9Xxk4vUz74MXL4BsB0-xJWn5YL64dF4H1NGUtApJ5DVR-oV1ISuwMRAsZokNbJcn2wBxqVvc3mM0XkjI9Gq7z73g8S1PzwXirAV-r1JSzluRxA70PZDbcko2oBEq31wvWfagGF_KTfHyR2tbVqhHRZCJ8FYACjyfVQ-lgplDUiGtlonGqWFJys3W85clXgY2k-ucN1O_tGqe3fu-vPqe0TOXF_7wS3Vy1qYNcD0QzkKdbtOkmYUZmTdkuIkUReEJqc-Wsyqb4G_sTTLlhPq8NA0wq1CByDLwXQB8XkkfWmS6ad7VxFatT_WmfnZwWHfe-mjb7tLiDhq96I-7giOLPRsPp7Z0hAZJ5GdcaCAFXv0XSqb2vxNbFCvShy2gPKaMYteo0cswAdHO2pdWlN50Z9Sa7fymrHTD9XYD0Em0Z80NaJgJE4i1CuLiYqy_DjSi5p_N_7EIZj-DflrQgqvKR2Y6BJ1NIainfF3jj61CTawsEbrL5Gtbnw4cVUc76auf0MkjJ5QvnPumzlKuN22crJT12Pc_XKkwggag8zOgqR5QWCbwDcLWtpCj6pDrGlAlTn3_JuqnW-KmLki_gL3ni4OreQkbBW_4dXIMWSDH8Q5zl-7vi5kvGYIzJHEY3Tj9x_Y1LiOZ3KbCG665FdwFSi6Qj2yCuqoq25aOR8KAgAB2Gk9oivefucvO8qr48Toboo8=w1068-h1424-no?authuser=0">
+        </div>
+        <br><br>
+        <div class="UjinaSunset">
+            <img width=500px height=300px src="https://lh3.googleusercontent.com/wbqiKtY26rRZJys_isc3EwKOPrqcmg7IJp2x-6jVzdGqTvvl5iXClWQbRr6Kq3X_2f8tqIskG5MsKh0U29gW4vn_PAR9gDv4hvLFS9o-EdcWvsRvLveevMH59xMi49PQhwmuScUOhz-6Ni9Rhh99ozcIKcWVMEQ8os7BmeuvYmutjLbSzJEt1WDhdRuxKL17ffge5oApFl0pO8RtPeLw7GnGtakK44hLRBliM4CyijQ7rY4ohxteeD3LNNFTwR61JJsKkj8rhmu-RyLoG5DutrmbaPLmzfWcNrHCTrvoVNzqshZfgi2czZBuSVstVsZ1a5oz4QlEXj5WLsRB-uZtUIgwGeDrgs76Rgwp6vxjgYdN_hZVoNphsDawYmK3YEm3Z8nx2n8zSF270Pp6etJUbD3Ie7e83N9YNN6OJGUfAnHSs15UIjef5ABxacpVUAzYAmOGZUvw_g8TwqbO_54omZLFro4OuRjIMNJ6agmIAMIZakYDnkixU_yQaCOa9YrYArRnsxaKgt_psLkn5Bj58P2y8aRtJSYMXF3c1RBptvikvGtTdc8WxDVwhLFVl54QHn8UJhC6jrgpujwyWy593MQjTxe0DejdpNZxSoVIdVlfLBJGamldGRiQCFARakUipPA-OekJuS_vA1T6tqSFkKwtdT8ZOoPS4M10-ajFj4BrnXk0B5hFIEgUhTbabmNdlQ0bRmSVMO4IrF79j50y4HQESA0U9waO95mIyL8kJQtrGSuMHFLz6A_afXRmnUfC-D_c_7qeC9ePcnimb4l1RmZXsIPnt1KJ1K5zvVJqlOQ7iVE55bC5H6S-6ukbANiQAbg0sIhn_hn67eHiYuF8kHI8IMkjLTQ-rYZxPejK4wbtZwjix1nWWqc_oFF45SoJW_hfUsqq3g2dhhnVltpPd3t7PddJ7kZ74lo0W2VU6o3fgvFnbYRXI70c2oM35oyBDb5DmWnmUpg=w1920-h1080-no?authuser=0">
+        </div>
+
+        <div class="Ujina_Close">
+            <img width=500px height=300px src="https://lh3.googleusercontent.com/xpSajwtl-yDIPV7O2XY4vaSrwL5Nv8qW-qFsYz3DHWPK_wOaSo7rOSHLWhy9wEfq4sZHERdQfFAinWS9YF8orD4nbOS_g3NsMd4ohUh_CKEAGGNukQ6JNW-Zt3EM6xXcH3-C4PX5I45CUDEGBtn1fom-3WpbWM1owqGOs53OjuN74Nrj0MQKokZRhlg6fJMM2tWBjHCTPudO-x4v13QLSqKcxVrR5xEio4vn_B6uQbGMsJHfo82Hux9ZDx8M80CMFrUejfqUGq6871h6s4qzdXgoaU44pG8oH-vGxlfIIgVnR0VWDJPv3TOcySfauc2H5OOco_hozCRZmX1mwnSUThY85ZM7ntJchIigPvwhLxyH4RBwpieYpd7IokV-KBwH2f4ngfM_36vb2stcf0N5x-UttzEtNnbF3PTTsFKSK11LBQAuwx3EkWfzH1UXKYUyjx5V37o2-oTGXNV-SqLVsf4mixCXJzxlT8vjWvzRxRBOIq6qPSDm91XrIIQpBx-QSqDYgSsTI0vWx3l2FOEmNc7RPQLkdP_RwPsR-leO23ixYmQ1OUcFo7fs5JiclVHQ31I_8BXMZULAaNCsSK1bBmX5xKI4Pfp1y4JcVLv45KAx7YBSG-2-zKRMmpHwk52EsmXX6NEQB72dd_gIlwcIz3_3epw_TdbIg1-wiI4cbJyb0aYZ7XxOj9Law_k4p9I8Ehd3vk0z_78I_XkS2oYZo9lylByWioV-U-b_J_7ecOUlIefppvNZIdutTisgjsJsLtv8bUXjeB2pnSJ2D3AIgVpy9bsQzgYA8nyYS0E0iW4SxDrHtmJPgBQy_VVActPAPSbtJ2Lur2q9AsQJ7CT_R1HkxAyWBNWajftb30wls0avMo1O37digV9OBjIzzpGPDlyyQnP4hn58Hiuqr7Uf0GjFesAziDVNIRWLQYLY9QYa9LfHhXQ7KspHQijCI3Z64x7VU5fvPAk=w1920-h1080-no?authuser=0">
+        </div>
+
+        <div class="Sink">
+            <img width=250px height=150px src="https://lh3.googleusercontent.com/tsWnOC97H5kwIr1K-VD4HTsPPxY9w8I4PyS0yHvUAN1acF1LUCkq_lkvkXzk4RKIlvE8NqNycgehQo6c4bO-fMCBk5ZuVtGnHPu0_F4lQxtpU2JZ9XDERt2peEunOf4M7B0w2YcoF8gQHkQW-ZnYSv1d0QX2hBzPKNm6EJAk8l2-xcKf5iZK3ZGb-yacq42dyCWdus7PQOexuxINdF0xIH6SB2kiEwBx8qkTDY58HhCwwz-4HkXmxICv9p6CTrOhMgp_BGHezcUNco-tKaFS7p90zr_-Pe6BJ231hNVxUc-Fa_0BX5tLCSK4K5l75wO1QCrk5FiMs3DBlFFUOrl03ieW68DkM63gS8Ds07KLLd6Y6Rfx_v11BtdIH5bR9ts75kMUKQfhyvgBUB2e7PjepTsJKJHn6CNS0VbPHoJZlmJZ_P57668E7oSEwyBV6hnH0rGI3DrHEX34TjNIFdBJ5v6eT_vj_Az2xaO3J1j3llpGsqd1BViS-tdfdecgW8B7y1QMrCDFI5JzEMCLfLgKlsuT-IQVBNDB5Dn_sUZ1YC15qTGrOcnCKw2cZ35SOyoqqBh5ZhO4jmrfPz3c2IDOu709Ith_EIEPsD3W6ytjbxmucqTceBrlYNMrX2HWnBjECfyL_cPdBejbf6fF_PPACDL64c9kne4ryJ6UsOY05WINgoTIOXfMfwBCqNjMPTfte0k3f8Qe_B8D4lHJ66aWLH2y6XN8yYJt0SG34Ixc_VkBxP9PKCmUcD91hWyxcLnf4D28KhaFBamdcxHD7KBHp2GdPQ6neSLtoBKdAlyGpoHX_GSFIrEG46bK6ABPiv1YIyZoXqE8BqZjj-g-jXyPi3tsc6WpQMFWLd7vj6Kr4lurW3MCEDpTXXtv3EWRuo6b05UNtsJilaF5Phu78F0wFzM138I8otLEy4n9GQz6r5WgH2f7cT_bWdS3N05aHNsOuDOt-82iIrc=w1280-h720-no?authuser=0">
+        </div>
+
+        <div class="WavyTrees">
+            <img width=230px height=320px src="https://lh3.googleusercontent.com/8XIEwapDIikfTwOxMu1VmyOcx-33Tk_jg17ZKbu0xpBCK22ihpOICzN0PwQjg_pfXC7BTfTQuZK6T5xe1oJG2FBrtb8xBt81W4cbAZLwL8_SyNtWQh5I104qO83bFTMhoYKPgkQI9BpEvrzFvu-yIqlWVHhM_5Y5x4kPYGJxiMjWaaCRm27dlxMheqT4DB2OMT1oa2I5DneVke8ey7ALRMOtc_xg9Ak48D_pGMb51TNNFbEoRg_og1TxPb-Q9UaHmFA-iNBKrhRA-30t3eY_HpHUf4vFc9lXTltErTykEAxkgKX5pehSgQFZ2Vntyw05Pe_X_R-Ut6nDlZBS5sQIQn6UA-GR6DOQsTYvuWaYGfeMWW_quuLx5bIcUU4jTkxnfoXKrziSR_thKRX6kmjGZFf-qb4pumA9mrvUA5qAQt-1tbPA0zy27OSHrJgddFFN7HSEjRZnAe6HgZz8PtNHkPl_UGnNeyJK4Pz3xP9d3jMlZK2BMC7tFyP0yQGn5yShzxSpzt10Qc4iw-UMWHX9sLC5yk88h-NS3HQTJu-15jbY6TKe8XZUIf0Q1imI2jkCnIXulcbQcuF2PdF2Ta-d8laGhdTHgPo7QyizsGZMmpcksQPx51SiVa9pfGraZJRxtVG_HDbicwjKxaY1ZhgiMEfWkm3QC2u2kaHYD0FxWjv3bJMZBbk309I1e05X5vayqkSnHEqYHEfkzx4BRgXytoXUuct0N7nMkJx9jhgpVVVHsmTMqklN4i_aceZVuxgSES6tlG6v-ZL6OuIq_sRwLdoNMEATXHEVIIbxA7Z8Nyd0lfXfgLrZsM_gYg6wsAfvTcGBBr-cf4z2nvgb7G0Wh8MfK1zSZXQKjBhVZ03egfV7jOyPGifGUI__M1ecAXYnXDp8Ian2gsZsa7YvPZ2RuM0AqSxorIjXpnlhE1bKAOPlst-frD4Oe_uvAAsGch1sA9ss4DYpjG0=w952-h1270-no?authuser=0">
+        </div>
+
+        <div class="Flashy_Lights">
+            <img width=500px height=300px src="https://lh3.googleusercontent.com/7RJPpz4pqjF5AB4cpOjPFQU7RMflxRCXk7HNYyFNgXlV8_E-Fdn-fF_ediUmskZSRKl3ItnP_U6iSaMv4V6OxKrlWaVgcPaEQFqFXevcJSlPPdC438iEOufbRkpV3ibqGJ6IKhMUldYx060RmTZ_VSaBkbXe8QQxpoBLAb32NInX3-BzOcvqCrGnO9hI2uGmbaucP9CB_hvM_GF-jNZe8vK4cC32sagMWF6omwWPSFVYTe5o-XCgFX-JNl69tnLl3-5VyTMMaljaqc49SNqqxhI4jVHj1qaLW1-CAAGc0v4HW_hg3Na6blBx5pSX4lX1MMqpbdYovoiAp6LqhSk2OJqRsu5fCXTfzLNUBEi9cmckXyhaNsEH7x-AFjTV5zSybJS0CmOV3TV1j1cewp8iyF398QyRTam2suY17Y_ASwxGmcMa7x621bt7AC-qG-SguymiMwKSEV4NMpZnZlXwaEJGYtLuaEd4Bnl1BRPCT8yH4Dft-nzUf5fnPefd02y8ZZ-xFXWIoAnqoMMZ18ktLt3zrVexx5mhxtFW1CCtpxjrubeAf1P-8EyRkHL25BKJieffbrhMhLlZqEg4Yog6Qr3qwhvM0Ye-6MM6HCxNA2JUwmpJg2B29HfaRyBSHJugn2Id8zpXxjPtE6c1iMS5XMlCDDM93acbhRHOlft835Eu0XZFwfKeAeBlR5r1Fv-Z0u0OhL4erS02_D-tP61Cl0a8GXya7CaWsJKHF3F9fnYViJiqHb1B_2TFlIu6xcF9RTnlOW7D-gG1GAR6eBNKkTJrVyEl___UpfCqDAIUmBHT19fnDUD3qWSesDw9fwaT82UhK14N_jgWkQTzmc2PWo4cQcjiUPxShHBbS37Y35AOsNZmDjWi960RbW56vloYG7j0x68kCC05PZQFWn4bC9nOZxOmPJsY-8vb0ddBEwmN1ntCplFytW2Zjc63h37tExIc2NPZ02g=w347-h195-no?authuser=0">
+        </div>
+
+        <div class="TokyoTrain">
+            <img width=190px height=320px src="https://lh3.googleusercontent.com/Zxkk-qQPGHa-03hxvEnXWshDpxdYaSnrezjsr7YA9FmK08dvoJYn_4iimiGzR4ncR3akM8i8R2NlfQbLpr-vHtFf9XKhio4PjQTvCvlD69xJW97sQ6YA7uzPA9U7fLXYuH_7JQhsfDZsqhhyrgO4mv3cL-SojOPQDh_dMEcIdbxHlCUJrsjN1gkP1SZfL-6dS0skVb5KIlXo1D3N3t9FLu18KiIN8M0GmwDSxEAFmw8PciNpQzdlUdZW5zQ9SqJv-HCAQ5LponQ4njxf-aM4nK1mOzVjGqkaL0pJUREijrmK43rg8AZqsGZd5kzejx4NzOM7S5c9cSYFndwGaKEbpulsmu9CG8Y_l35T2a3nfX6Pxl3Be-xE5VeUwcAi68BQRKxbmxOiORIGk-_76Zitp2i5ZzZMOKqamXAT1MxjqB6K90oR1T58fKud5VO4gVJg9-flAGLd1zx1zuyjtbfT7Y_bGb6WysOhHEmTG48u6PVv1qacFd0Qf6VErtOnW24wCqN0RJYTow7YY3xpa9rFjZQBt62n0PniHosbEWaQXevHtOxIjxx2XvIZLnQfmTB2Fe7-uJPkQ7zMoxeVs91vZsuimXj_936d1RUWe6D5esSk0j46wQbOAGi0T56MMv8oF_vhql00LyGyXS2aQgn7FPMlTopc-CajVZVAhe4zRTrqFOWMsEiZl-9kCMoT1nygGdteNfJEsa4vAinsKpRsKLexSwalcpUfrhg0aeESOxxfJ8EaWRplvHSJ8O2Yt51wkLxIm9IgCWLsS5g_DDpEZ9MpjCsWaCVlMovUVkAvkfs3zO6FWMGUuas3Bea2oBgpTCvyqVNFSyCGgRgI8T4KzubrhzenAQKKcnE-wNFD317gaxdfdJaGf5ZjY8jGssyA2NEOs7pdW3V8q50pLYUy9kYpeel_BpEw21S9St_cDaNCshE6WboO8ED9iz1Bv_wVLZoubffjyTo=w950-h1270-no?authuser=0">
+        </div>
+
+        <div class="bonfire">
+            <img width=1400px height=900px src="https://lh3.googleusercontent.com/OjqBHTvFvudaoJQjaah4NCRvBzTNy6NvL2oFNraZxux3o647Xjrx5HqVtJg4jKdXcD7X_tm1_sX9hzVzVK4a5pBw8DJwiVORIXpr2XGzuAzXk8bhchUOMYnT_ZL9NiROzqqyqf95rwJ_WcNNfRDV_T0e3jgBNjgv4PVGzDqszcS5eHIpxMvfo3afRsKO-vnN0OlutG4KTjLczvL2l28vDzDVUAgqx-9IBlgbNNTRpsi9sJG9eTOMWS75mqUUBp3ossauaC7EIhSU3iqbj-JsfDvBE87-PJYXb13V10ApzuBCwiwrTPsaDjOaFy_UquM5osCu-mvFQHfj02OQ_KngLQZgkIYnLGthe1H7DvEmvVHJ2c27NF8Dsv0OH3NlndDvqgMbDuBBRONsM2e96EpYSZNT4D4doTwLxwDmy7VvavTNeaU8awVTdevu1oVFmLPX0_1SAGXSZgkyQ3DCj9FbfQtXfP4mkZtlr1JkAmwXOLg9778njCDojHm2hcPkSrDePwy0MT1h_IKjj2mmXmvPXZgkumfowupvOlGZawjQzilzIC8lvkz1tmpgcqgk9jXw6AYiqhz25aRU1JfVboIizyUV72Nn3uIk3CmDmg1zRW2ILV2259hQ0VXcv4A89nA_eE3w__Ps5t4a7d_qXgEb8ItNCTI-5IUQfLFYBnFn2TrJb2gEzJJztHL96KTlfGC9b29isyU-x652v5N-kzVdLYwpCHB3bV0VtVWJ81xiAb7ATKKTYV5xMwYcHgAPYuWaaZM8J_V6Q5nPWSmLcmEaSHThfkT4o57JWoXoMx8qLCkQ_aCc-GNUXhbrwIY0GEpVW2qRrGrqLTD3Sg7AIxVujZ4iVeVCJiF-hwIQ8twsVH0_9Y8-VaFzo25qqIJoex2ySQK9xHNYMNGWwAz_Gg52QDvqcG1CxlHK08mPKhJQ8ALMlAqQMtGymgbPhtO_Eba9VhNDV0Sjdlw=w802-h1424-no?authuser=0">
+        </div>
+
+    </div>
+
+    <br><br><br><br>
+    <div class="time2">
+        <script type="text/javascript">
+            var myDate = new Date();
+            var myDay = myDate.getDay();
+
+            // Array of days.
+            var weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            document.write("Today is " + weekday[myDay]);
+            document.write("<br/>")
+
+            // get hour value.
+            var hours = myDate.getHours();
+            var ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12;
+            var minutes = myDate.getMinutes();
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            var myTime = hours + " " + ampm + " : " + minutes +
+                " : " + myDate.getMilliseconds();
+            document.write("\tCurrently " + myTime);
+        </script>
+    </div>
+</body>
+
+</html>

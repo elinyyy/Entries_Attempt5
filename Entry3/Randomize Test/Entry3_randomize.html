@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Randomized Text</title>
+ <link rel="stylesheet" href="./Entry3_randomize.css">
+
+ <div class="time">
+ <script type="text/javascript">
+    let myDate = new Date();
+    let myDay = myDate.getDay();
+
+    // Array of days.
+    let weekday = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    document.write("Today is " + weekday[myDay]);
+    document.write("<br/>")
+
+    // get hour value.
+    let hours = myDate.getHours();
+    let ampm = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12;
+    hours = hours ? hours : 12;
+    let minutes = myDate.getMinutes();
+    minutes = minutes < 10 ? '0' + minutes : minutes;
+    let myTime = hours + " " + ampm + " : " + minutes + 
+        " : " + myDate.getMilliseconds();
+    document.write("\tCurrent time is " + myTime);
+
+    let quotes = $(".quotes");
+for(let i = 0; i < quotes.length; i++){
+let quote1 = Math.floor(Math.random() * quotes.length -1) + 1;
+let quote2 = Math.floor(Math.random() * quotes.length -1) +1;
+let quote3 = Math.floor(Math.random() * quotes.length -1) +1;
+let quote4 = Math.floor(Math.random() * quotes.length -1) +1;
+cards.eq(quote1).before(cards.eq(quote4));
+</script>
+</div>
+</head>
+
+<body>
+    <header>
+        <p>Hey, all of this doesn't make sense. But you have to look for it. Use the mouse.</p>
+        <br><br><br><br>
+
+</header>
+<div class="quotes">
+        <div class="quote1">
+             <strong>"I dunno I guess I babysitted, applied for a job, and now I'm walking with you."</strong>
+        </div>
+
+        <div class="quote2">
+            <strong>"At this point Imma try not eat"</strong>
+        </div>
+
+        <div class="quote3">
+            <strong>"Why y'all staring' Mind your fucking business."</strong>
+        </div>
+
+        <div class="quote4">
+            <strong>"September, Septembers the best. But then there's always November too"</strong>
+        </div>
+    </div>
+</body>
+
+        
+
+

@@ -1,0 +1,171 @@
+html {
+min-height: 1400vh;
+min-width:100vw;
+background-color: whitesmoke;
+font-size: 20px;
+    font-family:'futura';
+    color:rgb(5, 15, 25);
+}
+
+:root {
+    --color: rgb(255, 15, 15);
+  }
+
+h1 {
+    color: var(--color);
+    mix-blend-mode: color-dodge;
+    z-index:11;
+    width: 80%;
+    position:Fixed;
+    top:300px;
+    left: 140px;
+    text-align: justify;
+    text-align-last:center;
+}
+    
+.time {
+    margin-left:30px;
+    margin-top:30px;
+}
+
+/* .all_images .h1 {
+    z-index:11;
+    width: 80%;
+    position:Fixed;
+    top:300px;
+    left: 140px;
+    text-align: justify;
+    text-align-last:center;
+    filter:invert(100%); 
+} */
+
+.all_images .Setouchi {
+    z-index:-5;
+    padding-left: 100px;
+    position:sticky;
+    top:0px;
+}
+
+.all_images .Aquarium {
+    z-index:-4;
+    padding-left:700px;
+    position:sticky;
+    top:0px;
+}
+
+.all_images .Candles {
+    z-index:-3;
+    padding-left:950px;
+    position:sticky;
+    top:0px;
+}
+
+.all_images .ParkingSign {
+    z-index:-2;
+    padding-left:300px;
+    position:sticky;
+    top:20px;
+}
+
+.all_images .blow_out_the_candles {
+    z-index:-1;
+    padding-left:390px;
+    position:sticky;
+    top:80px;
+}
+
+.all_images .StreetLight {
+    z-index:0;
+    padding-left:10px;
+    position:sticky;
+    top:0px;
+
+}
+
+.all_images .bonfire {
+    z-index:-6;
+    padding-left:10px;
+    position:sticky;
+    top:10px;
+}
+
+.all_images .BrooklynBridge {
+    z-index:1;
+    padding-left:620px;
+    position:sticky;
+    top:97px;
+}
+
+.all_images .MetVase {
+    z-index:2;
+    padding-left: 200px;
+    position:sticky;
+    top:110px;
+}
+
+.all_images .EmpireState {
+    z-index:3;
+    padding-left: 1000px;
+    position:sticky;
+    top:150px;
+}
+
+.all_images .UjinaSunset {
+    z-index:4;
+    padding-left: 500px;
+    position:sticky;
+    top:120px;
+}
+
+.all_images .Ujina_Close {
+    z-index:5;
+    padding-left: 500px;
+    position:sticky;
+    top:120px;
+}
+
+.all_images .Sink {
+    z-index:6;
+    padding-left: 350px;
+    position:sticky;
+    top:150px;
+}
+
+.all_images .WavyTrees {
+    z-index:7;
+    padding-left: 0px;
+    position:sticky;
+    top:200px;
+}
+
+.all_images .Flashy_Lights {
+    z-index:8;
+    padding-left: 600px;
+    position:sticky;
+    top:300px;
+}
+
+.all_images .TokyoTrain {
+    z-index:9;
+    padding-left: 300px;
+    position:sticky;
+    top:300px;
+}
+
+.all_images .TokyoTrain {
+    z-index:9;
+    padding-left: 300px;
+    position:sticky;
+    top:300px;
+}
+
+.all_images .bonfire {
+    z-index:10;
+    position:sticky;
+    top:300px;
+}
+
+.time2 {
+   text-align: center;
+   font-size: 25px;
+}

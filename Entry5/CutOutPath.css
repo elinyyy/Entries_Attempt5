@@ -1,0 +1,127 @@
+html {
+    min-height: 50vh;
+    min-width: 100vw;
+    overflow: hide;
+    background-color: black;
+}
+
+.hole_svg {
+    clip-path:url("#circle");
+}
+
+/* .hole {
+    z-index: 2;
+    position: absolute;
+    /* background-image: radial-gradient(circle 20px at calc(100% - 30px) calc(100% - 30px), transparent 30px, purple 0);
+    border-radius: 50%; */
+    animation-name:HOLE;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+} */
+
+/* 
+@keyframes HOLE {
+0% {position: absolute;
+    left: 200px;
+    top: 200px;}
+
+10% {position: absolute;
+    left: 961px;
+    top: 370px;
+}
+
+20% {position: absolute;
+    left: 800px;
+    top: 400px;}
+
+30% {position: absolute;
+    left: 938px;
+    top: 297px;
+}
+
+40% {position: absolute;
+    left: 782px;
+    top: 189px;}
+
+50% {position: absolute;
+    left: 620px;
+    top: 389px;}
+
+60% {position: absolute;
+    left: 589px;
+    top: 319px;}
+
+70% {position: absolute;
+    left: 729px;
+    top: 204px;}
+
+80% {position: absolute;
+    left: 618px;
+    top: 172px;}
+
+90% {position: absolute;
+    left: 309px;
+    top: 102px;}
+
+100% {position: absolute;
+    left: 200px;
+    top: 200px;}
+
+}
+
+.all_images .Setouchi {
+    z-index: 0;
+    position: absolute;
+    top: -130px;
+    left: 0px;
+}
+
+.all_images .Ujina_Close {
+    z-index: 0;
+    position: absolute;
+    top: -130px;
+    left: 590px;
+}
+
+.all_images .ParkingSign {
+    position: absolute;
+    top: -130px;
+    left: 1240px;
+}
+
+.all_images .Candles {
+    position: absolute;
+    top: 270px;
+    left: 800px;
+}
+
+.all_images .blow_out_the_candles {
+    position: absolute;
+    top: 270px;
+    left: 450px;
+}
+
+.all_images .StreetLight {
+    position: absolute;
+    top: 670px;
+    left: 810px;
+}
+
+.all_images .MetVase {
+    position: absolute;
+    top: 270px;
+    left: 150px;
+}
+
+.all_images .UjinaSunset {
+    z-index: -2;
+    position: absolute;
+    top: 770px;
+    left: 150px;
+}
+
+.all_images .TokyoTrain {
+    position: absolute;
+    top: 270px;
+    left: -210px;
+} */
